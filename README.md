@@ -166,15 +166,15 @@ Grade: F
 ```
 
 ***Customization***
-Pass Mark:
-Change the value of pass_mark in the new version to set a different passing threshold.
+ 
+ 1.Pass Mark:<br>
+  Change the value of pass_mark in the new version to set a different passing threshold.
 
-Grading Scheme:
-Adjust the if-elif-else grading logic as needed.
+2.Grading Scheme:<br>
+  Adjust the if-elif-else grading logic as needed.
 
 ***Notes***
-Input validation is not included; enter only valid integer marks.
-
-You can further enhance the script to handle non-integer or negative inputs.
+ - Input validation is not included; enter only valid integer marks.
+ - You can further enhance the script to handle non-integer or negative inputs.
 
 
