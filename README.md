@@ -84,7 +84,7 @@ print(f"Its your total marks Percentage: {Percentage:.2f}%")
  - Input validation is not included; entering non-integer values will cause an error.
 
 
- # Marks Report Card
+ # Student Marks Report Card
 This Python script allows you to enter marks for multiple subjects, calculates the total and average, and assigns a grade based on the average score. The final output is a neatly formatted report card.
 
 ***Features***
@@ -141,3 +141,40 @@ Grade:B
   - Please enter valid integer values for marks.
   - The grading scale can be easily adjusted in the script.
   - No input validation is included for negative or non-integer values.
+
+ # Student Marks Report Card v1.1
+
+***Feature***
+ - **New**: Shows pass/fail status for each subject (default pass mark: 35).
+
+***New V1.1 Output***
+
+```
+Enter the number of subjects: 3
+Enter marks for Subject 1: 80
+Enter marks for Subject 2: 30
+Enter marks for Subject 3: 70
+
+----- Report Card ----
+Subject 1: 80 - Pass
+Subject 2: 30 - Fail
+Subject 3: 70 - Pass
+Total Marks: 180
+Average: 60.00
+Grade: F
+
+```
+
+***Customization***
+Pass Mark:
+Change the value of pass_mark in the new version to set a different passing threshold.
+
+Grading Scheme:
+Adjust the if-elif-else grading logic as needed.
+
+***Notes***
+Input validation is not included; enter only valid integer marks.
+
+You can further enhance the script to handle non-integer or negative inputs.
+
+
