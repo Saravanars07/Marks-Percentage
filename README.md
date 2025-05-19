@@ -1,4 +1,4 @@
-# Marks-Percentage-
+# Marks-Percentage
 ## Subject Marks Percentage Calculator
 This Python script allows you to input marks for a number of subjects, calculates the total marks, and computes the percentage. It also displays the marks for each subject and the total number of subjects.
 
