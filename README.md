@@ -178,3 +178,45 @@ Grade: F
  - You can further enhance the script to handle non-integer or negative inputs.
 
 
+# Storage Usage Calculator
+This simple Python script calculates the percentage of used storage based on the total storage and used storage values entered by the user. It helps you quickly determine how much storage space has been utilized.
+
+***How It Works***
+
+  - The script prompts the user to input the total storage capacity.
+  - Then, it asks for the amount of storage currently used.
+  - It calculates the used storage as a percentage of the total storage.
+  - Finally, it prints the used storage percentage formatted to two decimal places.
+
+***Usage***
+
+  1. Make sure you have Python installed on your system (Python 3.x recommended).
+  2. Run the script using a Python interpreter:
+     
+     ```
+     python storage_usage_calculator.py
+     ```
+  3. Enter the total storage when prompted (e.g., 500).
+  4. Enter the used storage when prompted (e.g., 125).
+  5. The script will display the used storage percentage.
+
+***Code***
+
+ ```
+  Total_Storage = float(input("Enter a Total Storage: "))
+  Used_Storage = float(input("Enter a Used Storage: "))
+  print(f"Used storage in percentage:{((Used_Storage/Total_Storage)*100):.2f}%")
+
+ ```
+***Output***
+
+```
+  Enter a Total Storage: 500
+  Enter a Used Storage: 125
+  Used storage in percentage: 25.00%
+
+```
+
+***Notes***
+  - Ensure that the total storage entered is greater than zero to avoid division errors.
+  - The inputs can be decimal numbers to accommodate storage values like 256.5 GB.
